@@ -1,4 +1,4 @@
-const calculateBmi = (height: number, weight: number): String => {
+export const calculateBmi = (height: number, weight: number): String => {
     const bmi = weight * 10000 / (height * height);
     const result = bmi < 15 ? 'Very severely underweight' :
         bmi < 16 ? 'Severely underweight' :
